@@ -148,3 +148,12 @@
 //gestione dei focus
 @import 'utilities/focus';
 @import 'utilities/icons';
+
+//OrchardCore grid system
+@import "OrchardCore/modules/_flow.scss";
+@import "OrchardCore/modules/_widgets.scss";
+@import "OrchardCore/modules/_messages.scss";
+//Bootstrap Italia customization for OrchardCore
+@import "OrchardCore/custom/_pager.scss";
+@import "OrchardCore/custom/_tables.scss";
+@import "OrchardCore/custom/_cards.scss";

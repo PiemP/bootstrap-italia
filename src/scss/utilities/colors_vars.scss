@@ -199,28 +199,28 @@ $lightgrey-c2: #f5f6f7;
 //***********************************************************************
 
 //-------------------------Tinta e ombre---------------------------------
-$primary-a12: hsb($primary-h, $primary-s, 20);
-$primary-a11: hsb($primary-h, $primary-s, 30);
-$primary-a10: hsb($primary-h, $primary-s, 40);
-$primary-a9: hsb($primary-h, $primary-s, 50);
-$primary-a8: hsb($primary-h, $primary-s, 60);
-$primary-a7: hsb($primary-h, $primary-s, 70);
-$primary-a6: hsb($primary-h, $primary-s, 80);
-$primary-a5: hsb($primary-h, $primary-s - 15, 84);
-$primary-a4: hsb($primary-h, $primary-s - 30, 88);
-$primary-a3: hsb($primary-h, $primary-s - 45, 92);
-$primary-a2: hsb($primary-h, $primary-s - 60, 96);
-$primary-a1: hsb($primary-h, $primary-s - 75, 100);
+$primary-a12: hsb($primary-h, $primary-s, 20) !default;
+$primary-a11: hsb($primary-h, $primary-s, 30) !default;
+$primary-a10: hsb($primary-h, $primary-s, 40) !default;
+$primary-a9: hsb($primary-h, $primary-s, 50) !default;
+$primary-a8: hsb($primary-h, $primary-s, 60) !default;
+$primary-a7: hsb($primary-h, $primary-s, 70) !default;
+$primary-a6: hsb($primary-h, $primary-s, 80) !default;
+$primary-a5: hsb($primary-h, $primary-s - 15, 84) !default;
+$primary-a4: hsb($primary-h, $primary-s - 30, 88) !default;
+$primary-a3: hsb($primary-h, $primary-s - 45, 92) !default;
+$primary-a2: hsb($primary-h, $primary-s - 60, 96) !default;
+$primary-a1: hsb($primary-h, $primary-s - 75, 100) !default;
 
 //-------------------------Toni------------------------------------------
-$primary-b1: hsb($primary-h, $primary-s, $primary-b);
-$primary-b2: hsb($primary-h, $primary-s - 10, $primary-b - 10);
-$primary-b3: hsb($primary-h, $primary-s - 20, $primary-b - 20);
-$primary-b4: hsb($primary-h, $primary-s - 30, $primary-b - 30);
-$primary-b5: hsb($primary-h, $primary-s - 40, $primary-b - 40);
-$primary-b6: hsb($primary-h, $primary-s - 50, $primary-b - 50);
-$primary-b7: hsb($primary-h, $primary-s - 60, $primary-b - 60);
-$primary-b8: hsb($primary-h, $primary-s - 70, $primary-b - 70);
+$primary-b1: hsb($primary-h, $primary-s, $primary-b) !default;
+$primary-b2: hsb($primary-h, $primary-s - 10, $primary-b - 10) !default;
+$primary-b3: hsb($primary-h, $primary-s - 20, $primary-b - 20) !default;
+$primary-b4: hsb($primary-h, $primary-s - 30, $primary-b - 30) !default;
+$primary-b5: hsb($primary-h, $primary-s - 40, $primary-b - 40) !default;
+$primary-b6: hsb($primary-h, $primary-s - 50, $primary-b - 50) !default;
+$primary-b7: hsb($primary-h, $primary-s - 60, $primary-b - 60) !default;
+$primary-b8: hsb($primary-h, $primary-s - 70, $primary-b - 70) !default;
 
 //-------------------------Saturazione------------------------------------------
 $primary-c1: hsb(

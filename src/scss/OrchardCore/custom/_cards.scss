@@ -1,0 +1,14 @@
+// grid default
+.it-grid-list-wrapper {
+  // masonry
+  &.it-masonry {
+	.card-columns {
+	  @include media-breakpoint-only(md) {
+		column-count: 2;
+		column-gap: $card-columns-gap;
+		orphans: 1;
+		widows: 1;
+	  }
+	}
+  }
+}

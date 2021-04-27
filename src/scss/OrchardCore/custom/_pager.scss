@@ -1,0 +1,13 @@
+.pagination {
+
+  .page-item {
+    //current page version
+    &.active {
+      .page-link {
+        border: $pager-item-current-border;
+        color: $pager-item-current-color;
+        pointer-events: none;
+      }
+    }
+  }
+}

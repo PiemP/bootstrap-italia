@@ -1,0 +1,15 @@
+table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+
+  .table-bordered {
+    border: 0;
+  }
+  
+  td, th {
+	padding: .5em;
+    vertical-align: top;
+  }
+}
